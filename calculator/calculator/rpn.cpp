@@ -52,7 +52,7 @@ double evaluate_rpn(list<Op> &exp)
                 a=my_stack.top();
                 my_stack.pop();
                 b=my_stack.top();
-                my_stack.pop();
+                my_stack.pop();//hggggggggggg
                 my_stack.push(a+b);
             }
             
